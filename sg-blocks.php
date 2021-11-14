@@ -10,7 +10,7 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       sg-blocks
  *
- * @package           sg-blocks
+ * @package           sg-block
  */
 
 /**
@@ -21,6 +21,6 @@
  * @see https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/writing-your-first-block-type/
  */
 function create_block_sg_blocks_block_init() {
-	register_block_type( __DIR__ );
+	register_block_type( __DIR__ . '/src/bonus-popup');
 }
 add_action( 'init', 'create_block_sg_blocks_block_init' );
