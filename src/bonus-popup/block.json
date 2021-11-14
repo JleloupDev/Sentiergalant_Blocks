@@ -1,12 +1,12 @@
 {
 	"$schema": "https://json.schemastore.org/block.json",
 	"apiVersion": 2,
-	"name": "sg-blocks/bonus-popup",
+	"name": "sg-blocks/bonus-form",
 	"version": "0.1.0",
-	"title": "Bonus Popup",
+	"title": "Bonus Form",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Bonus popup with buttons",
+	"description": "Bonus form",
 	"supports": {
 		"html": false
 	},
