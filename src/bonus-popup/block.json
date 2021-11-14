@@ -1,17 +1,17 @@
 {
 	"$schema": "https://json.schemastore.org/block.json",
 	"apiVersion": 2,
-	"name": "sg-blocks/bonus-popup",
+	"name": "create-block/sg-blocks",
 	"version": "0.1.0",
 	"title": "Bonus Popup",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Bonus popup with buttons",
+	"description": "Bonus popup with btn",
 	"supports": {
 		"html": false
 	},
 	"textdomain": "sg-blocks",
-	"editorScript": "file:./build/index.js",
-	"editorStyle": "file:./build/index.css",
-	"style": "file:./build/style-index.css"
+	"editorScript": "file:../../build/index.js",
+	"editorStyle": "file:../..build/index.css",
+	"style": "file:../../build/style-index.css"
 }
